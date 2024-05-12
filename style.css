@@ -6,3 +6,11 @@
     font-family: my-font;
     src: url("/home/mikiaklilu/repos/Sign-up-Form/Norse-Bold.otf");
  }
+ body{
+    min-height: 100vh;
+    display: flex;
+ }
+ .black{
+    width: 15%;
+    background-color: black;
+ }
