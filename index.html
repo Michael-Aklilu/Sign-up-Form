@@ -16,9 +16,42 @@
         <footer>Photo by Halie West on Unsplash</footer>
       </div>   
       <div id="form">
-        <p>This is not a real online service! I'm just practicing my HTML and Javascript skills by creating a sign up form.</p>
-        <span>Thanks for your time!</span>
+        <div class="textContent">
+          <p>This is not a real online service! I'm just practicing my HTML and Javascript skills by creating a sign up form.</p>
+          <span>Thanks for your time!</span>
+       </div>
+        <div id="form-content">
+           
+            <div class="firstcolumn">
+               <label for="firstName">FIRST NAME</label> 
+               <input type="text" id="firstName" name="firstname">
+                
+               <label for="email">EMAIL</label>
+               <input type="email" name="email" id="email">
+
+               <label for="password">PASSWORD</label>
+               <input type="password" name="passwird" id="password">
+            </div>  
+            <div class="secondcolumn">
+                 <label for="lastname">LAST NAME</label>
+                 <input type="text" name="lastname" id="lastname">
+
+                 <label for="phonenumber">PHONE NUMBER</label>
+                 <input type="tel" name="phonenum" id="phonenumber">
+
+                 <label for="confirmpassword">CONFIRM PASSWORD</label>
+                 <input type="password" name="confirmpassword" id="confirmpassword">
+          
+            </div> 
+        </div>
+        
+       <button>Create Account</button>
+       <div>Already have an account? Log in</div>
+        
       </div>
+      
       <div class="black"></div>
+      
+
 </body>
 </html>
