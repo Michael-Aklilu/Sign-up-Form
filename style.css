@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
  }
+ 
  @font-face {
     font-family: my-font;
     src: url("/home/mikiaklilu/repos/Sign-up-Form/Norse-Bold.otf");
@@ -14,8 +15,10 @@
    font-family: mythirdfont;
    src: url("/home/mikiaklilu/repos/Sign-up-Form/Fonts/KaushanScript-Regular.otf");
  }
+ 
  body{
-    min-height: 100vh;
+   zoom:35%;
+   min-height: 100vh;
     display: flex;
     background-color: ghostwhite;
  }
